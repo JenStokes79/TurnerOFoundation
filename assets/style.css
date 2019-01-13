@@ -44,11 +44,20 @@
     color: gray;
     font-size: 28px;
 }
-
+/* left sides images */
 img {
     width: 350px;
     height: 300px;
   
+}
+
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: 350px;
+  height: 300px;;
+  padding: 10px;
 }
 
 h4, p {
@@ -57,3 +66,15 @@ h4, p {
     color: gray;
 }
 
+h4.about {
+    position: absolute;
+    right: 0px;
+
+}
+
+p.about-1 {
+    position: absolute;
+    right: 0px;
+    margin-top: 30px;
+    text-align: right
+}
