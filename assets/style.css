@@ -1,5 +1,5 @@
 .jumbotron {
-   background: url('images/wood-2.jpg') no-repeat center center fixed;
+   background: url('images/wood.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    background-size: cover;
@@ -19,6 +19,15 @@
     width: 100%;
   }
 }
+.headertext {
+  width: 88%;
+  height: 75%;
+  padding: 15px;
+  background-color: antiquewhite;
+  opacity: .9;
+  /* box-shadow: 10px 10px; */
+}
+
 
 
 
@@ -35,3 +44,16 @@
     color: gray;
     font-size: 28px;
 }
+
+img {
+    width: 350px;
+    height: 300px;
+  
+}
+
+h4, p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    color: gray;
+}
+
