@@ -1,3 +1,5 @@
+
+/* jumbotron */
 .jumbotron {
    background: url('images/wood.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
@@ -28,9 +30,6 @@
   /* box-shadow: 10px 10px; */
 }
 
-
-
-
 .display-4 {
     font-family: 'Work Sans', sans-serif;
     font-weight: bolder;
@@ -44,15 +43,28 @@
     color: gray;
     font-size: 28px;
 }
-/* left sides images */
+
+/* all images */
 img {
     width: 350px;
     height: 300px;
   
 }
 
+/* mission statement section */
 
-.right {
+h4, p, h3{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    color: gray;
+}
+
+.about {
+    text-align: right;
+}
+
+/* about section */
+/* .right {
   position: absolute;
   right: 0px;
   width: 350px;
@@ -60,21 +72,78 @@ img {
   padding: 10px;
 }
 
-h4, p {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: bolder;
-    color: gray;
-}
-
 h4.about {
     position: absolute;
     right: 0px;
+    margin-top: 0px;
 
 }
-
 p.about-1 {
     position: absolute;
     right: 0px;
     margin-top: 30px;
     text-align: right
+} */
+
+
+.footer {
+  margin-bottom: 0px;
+  background-color: rgb(62, 62, 57);
+  padding: 30px;
 }
+
+
+.socialimg {
+    width: 35px;
+    height: 35px;
+  
+    
+}
+
+.footericon {
+   text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* responsive media queries */
+/* @media only screen and (max-width: 980px) {
+img {
+    width: 350px;
+    height: 300px;
+
+} */
+
+/* p.about-1 {
+    position: absolute;
+    right: 0px;
+    margin-top: 30px;
+    text-align: right
+}
+} */
+
+/* @media only screen and (max-width: 650px) {
+p.about-1 {
+    /* position: relative; */
+    /* right: 0px; */
+    /* margin-top: 275px; */
+    /* text-align: left; */
+/* } */ 
+
+/* } */
+
+/* @media only screen and (max-width: 480px) {
+p.about-1 {
+    margin-top: 350px;
+
+}
+h4.about {
+    margin-top: 300px;
+
+}
+
+} */
+
