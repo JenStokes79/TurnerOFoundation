@@ -1,6 +1,6 @@
 
 /* jumbotron */
-.jumbotron {
+.jumbotron  {
    background: url('images/wood.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -147,3 +147,35 @@ h4.about {
 
 } */
 
+
+/* activism page specifics */
+.activeimg {
+
+    width: 100px;
+    height: 100px;
+}
+
+/* jumbotron */
+.socialresp {
+    background: url('images/notebook.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    animation-duration: 3s;
+    animation-name: slidein;
+ }
+ 
+
+
+
+/* about page specs */
+.bio {
+    background: url('images/community.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
